@@ -15,7 +15,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="mt-36 mx-10 sm:mx-14 md:mx-20 text-center md:text-left w-2/3 ">
+    <div className="mt-36 mx-13 md:mx-20 text-center md:text-left w-2/3 ">
       <motion.h1
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
