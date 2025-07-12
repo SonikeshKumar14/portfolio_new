@@ -21,7 +21,7 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="md:text-5xl text-3xl p-popins font-bold"
+        className="md:text-5xl text-3xl p-popins font-bold text-center md:text-left"
         style={{ color: "#42446e" }}
       >
         About Me
@@ -47,7 +47,7 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="md:text-5xl text-3xl p-popins font-bold"
+        className="md:text-5xl text-3xl p-popins font-bold text-center md:text-left"
         style={{ color: "#42446e" }}
       >
         Education
@@ -189,7 +189,7 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="md:text-5xl text-3xl p-popins font-bold"
+        className="md:text-5xl text-3xl p-popins font-bold text-center md:text-left"
         style={{ color: "#42446e" }}
       >
         Work Experience
@@ -280,7 +280,7 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
-        className="md:text-5xl sm:text-3xl  text-2xl p-popins font-bold"
+        className="md:text-5xl text-3xl p-popins font-bold text-center md:text-left"
         style={{ color: "#42446e" }}
       >
         Achievements
