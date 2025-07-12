@@ -160,7 +160,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full transition-opacity duration-500 z-50 px-4 py-4 bg-white ${
+      className={`fixed top-0 left-0 w-screen max-w-full overflow-x-hidden transition-opacity duration-500 z-50 px-4 py-4 bg-white ${
         showNavbar ? "opacity-100" : "opacity-0 pointer-events-none"
       } ${isScrolled ? "border-b border-gray-200 shadow-md" : ""}`}
     >

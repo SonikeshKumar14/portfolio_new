@@ -22,10 +22,10 @@ const Home = () => {
   }, [scrollTarget, setScrollTarget]);
 
   return (
-    <motion.div initial={{opacity: 0, y: 40}} animate={{opacity: 1, y: 0}} transition={{duration: 0.6, ease: "easeOut"}} className="mt-40 px-4 md:px-16">
+    <motion.div initial={{opacity: 0, y: 40}} animate={{opacity: 1, y: 0}} transition={{duration: 0.6, ease: "easeOut"}} className="mt-40 px-4 md:px-16 overflow-x-hidden">
       <div className="flex flex-col-reverse md:flex-row items-center md:items-center gap-10">
         <div className="flex-1 items-center md:text-left">
-          <p className="text-4xl md:text-6xl font-semibold md:text-left ml-2.5 p-popins text-center" style={{color: '#42446e'}}>
+          <p className="text-4xl md:text-6xl font-semibold md:text-left mx-1 p-popins text-center" style={{color: '#42446e'}}>
             Hi <span className="animate-wave">👋</span>, <br />
             My name <br />
             is{" "}

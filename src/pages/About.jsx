@@ -15,7 +15,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="mt-36 ml-10 sm:mx-14 md:mx-20 text-center md:text-left w-2/3 ">
+    <div className="mt-36 mx-1 md:mx-20 text-center md:text-left max-w-full overflow-x-hidden md:w-2/3 ">
       <motion.h1
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -115,7 +115,7 @@ const About = () => {
           )}
         </div>
         <div className="flex items-center">
-          {width >= 463 && <FaCalendarAlt style={{ color: "#A7A7A7" }} />}
+          <FaCalendarAlt style={{ color: "#A7A7A7" }} />
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -168,7 +168,7 @@ const About = () => {
           </motion.p>
         </div>
         <div className="flex items-center">
-          {width >= 463 && <FaCalendarAlt style={{ color: "#A7A7A7" }} />}
+          <FaCalendarAlt style={{ color: "#A7A7A7" }} />
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -244,8 +244,6 @@ const About = () => {
               CodeSoft
             </motion.p>
             <div className="flex items-center md:ml-20">
-              {width >= 463 && (
-                <>
                   <FaMapMarkerAlt style={{ color: "#A7A7A7" }} />
                   <motion.p
                     initial={{ opacity: 0, y: 30 }}
@@ -257,13 +255,11 @@ const About = () => {
                   >
                     Remote
                   </motion.p>
-                </>
-              )}
             </div>
           </div>
         </div>
         <div className="flex items-center">
-          {width >= 463 && <FaCalendarAlt style={{ color: "#A7A7A7" }} />}
+         <FaCalendarAlt style={{ color: "#A7A7A7" }} />
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
